@@ -54,7 +54,7 @@ The plots obtained by running 3 different datasets can be seen below. It can be 
 
 ### NOTE
 
-You can load the sample dataset file 'studentdata4' that has been provided in this repository.
+You can load the sample dataset file 'studentdata4.mat' that has been provided in this repository.
 
 
 
