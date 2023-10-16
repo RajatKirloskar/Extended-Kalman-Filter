@@ -1,7 +1,7 @@
 # Extended-Kalman-Filter
 ###State Estimation of a Nano Quadrotor
 
-###OBJECTIVE
+### OBJECTIVE
 
 To implement an Extended Kalman Filter (EKF) for state estimation by considering the acceleration and angular velocity from an onboard IMU sensor as control inputs and measurement from the pose and orientation provided by the Vicon motion capture system as ground truth.
 
