@@ -1,5 +1,5 @@
 # Extended-Kalman-Filter
-###State Estimation of a Nano Quadrotor
+### State Estimation of a Nano Quadrotor
 
 ### OBJECTIVE
 
@@ -51,6 +51,10 @@ The plots obtained by running 3 different datasets can be seen below. It can be 
 ![image](https://github.com/RajatKirloskar/Extended-Kalman-Filter/assets/108690286/d0641db8-b643-4f3d-9ee8-d68a844950e0)
 
 ![image](https://github.com/RajatKirloskar/Extended-Kalman-Filter/assets/108690286/65f90ac5-aa07-42eb-84b3-4caa67b38743)
+
+### NOTE
+
+You can load the sample dataset file 'studentdata4' that has been provided in this repository.
 
 
 
