@@ -20,6 +20,7 @@ The state matrix and process model for the prediction step are given by-
 ![image](https://github.com/RajatKirloskar/Extended-Kalman-Filter/assets/108690286/a91c2efc-e652-49ce-980f-3a3d9a7b4c92)
 
 Once we have the x_dot matrix, we can calculate the estimated mean and estimated covariance by using the parameters shown below and then plugging them into equations 1 and 2 mentioned above.
+
 ![image](https://github.com/RajatKirloskar/Extended-Kalman-Filter/assets/108690286/c9d3b948-9ae3-417d-866f-d12e39bcdbd1)
 
 The x, x_dot, At and Ut matrices have been calculated by using symbolic variables in a live script. The values for these symbolic variables have been obtained from the uPrev, angVel, and acc files.
