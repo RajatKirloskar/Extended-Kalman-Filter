@@ -5,7 +5,7 @@
 
 To implement an Extended Kalman Filter (EKF) for state estimation by considering the acceleration and angular velocity from an onboard IMU sensor as control inputs and measurement from the pose and orientation provided by the Vicon motion capture system as ground truth.
 
-###METHODOLOGY
+### METHODOLOGY
 
 In the KalmanFilt_Part1.m file, data is first loaded into the sampledData struct, sampledVicon and sampledTime files. Data from sampledVicon is then extracted which contains all the measurements that are required for the update step. We then run a for loop to update the values of the angular velocity and acceleration of the IMU from the sampledData file. We also calculate the sampling time dt in this for loop by calculating the difference between the current time and the previous time step. This data is necessary for the prediction step.
 
@@ -41,7 +41,7 @@ Since we are told that the measurement step is updated only by taking values of 
 
 This completes the implementation of the Extended Kalman Filter.
 
-###RESULTS
+### RESULTS
 
 The plots obtained by running 3 different datasets can be seen below. It can be observed that the actual values vs the predicted values are almost the same for the position and orientation in X, Y, and Z. However, there is a slight mismatch in the velocity graphs. This is because we only consider the position and orientation while excluding the velocity in the observation model to calculate the z matrix.
 
